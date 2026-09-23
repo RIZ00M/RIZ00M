@@ -1,19 +1,19 @@
+
+
 <div align="center">
 
-<table style="border: none;">
-<tr>
-<td valign="top" style="border: none; padding: 0;">
-  <img src="ascii-portrait.svg" width="396" alt="ASCII portrait">
-</td>
-<td valign="top" style="border: none; padding: 0;">
-  <img src="info-card.svg" width="454" alt="About RIZ00M">
-</td>
-</tr>
-</table>
-
-
-
 <h3>riz00m@github:~$</h3>
+
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 0;">
+  <img src="ascii-portrait.svg" width="396" alt="ASCII portrait">
+  <img src="info-card.svg" width="454" alt="About RIZ00M">
+</div>
+
+
+
+
+
+
 
 <img src="contrib-heatmap.svg" width="850" alt="Contribution heatmap for RIZ00M">
 
