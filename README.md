@@ -6,7 +6,7 @@
 
 <br><br>
 
-<img src="ascii-portrait.svg" width="350" alt="ASCII portrait">
+<img src="ascii-portrait.svg" width="600" alt="ASCII portrait">
 <img src="info-card.svg" width="400" alt="About RIZ00M">
 
 <br><br>
