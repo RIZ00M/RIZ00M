@@ -41,21 +41,6 @@
 </td>
 </tr>
 
-<tr>
-<td width="50%" align="center" style="border: none; padding-top: 10px;">
-
-<a href="https://github.com/RIZ00M">
-<img width="100%" src="https://riz00m.vercel.app/api?username=RIZ00M&show_icons=true&hide_rank=true&include_all_commits=true&theme=transparent&hide_border=true" alt="Rizoom's GitHub Stats">
-</a>
-
-</td>
-<td width="50%" align="center" style="border: none; padding-top: 10px;">
-
-<img width="100%" src="https://riz00m.vercel.app/api/top-langs/?username=RIZ00M&layout=compact&langs_count=6&theme=transparent&hide_border=true" alt="RIZ00M's Top Languages">
-
-</td>
-</tr>
-
 </table>
 
 <br/><br/>
