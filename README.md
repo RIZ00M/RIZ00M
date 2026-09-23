@@ -2,7 +2,7 @@
 
 <table border="0" cellpadding="0" cellspacing="0" style="border: none;">
 <tr>
-<td colspan="2" align="center" style="border: none;">
+<td colspan="2" align="center" style="border: none; padding-bottom: 20px;">
 
 <img src="banner.svg" width="850" alt="riz00m banner">
 
@@ -10,15 +10,19 @@
 </tr>
 
 <tr>
+<td colspan="2" style="border: none; line-height: 24px; font-size: 24px;">&nbsp;</td>
+</tr>
+
+<tr>
 <td valign="top" align="right" style="border: none; padding: 0;">
 
-<img src="ascii-portrait.svg" width="396" alt="ASCII portrait">
+<img src="ascii-portrait.svg" height="420" alt="ASCII portrait">
 
 </td>
 
 <td valign="top" align="left" style="border: none; padding: 0;">
 
-<img src="info-card.svg" width="454" alt="About RIZ00M">
+<img src="info-card.svg" height="420" alt="About RIZ00M">
 
 </td>
 </tr>
