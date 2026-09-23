@@ -14,3 +14,11 @@
 </table>
 
 </div>
+
+<a href="https://github.com/RIZ00M">
+  <img height="180" src="https://riz00m.vercel.app/api?username=RIZ00M&show_icons=true&hide_rank=true&include_all_commits=true&theme=transparent" alt="Rizoom's GitHub Stats">
+</a>
+
+<a href="https://github.com/RIZ00M">
+  <img height="180" src="https://github-readme-streak-stats-riz00m.vercel.app?user=RIZ00M&theme=transparent" alt="GitHub Streak" />
+</a>
