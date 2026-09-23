@@ -1,0 +1,7 @@
+# Only for regenerating the portrait locally. The daily workflow needs just requests + beautifulsoup4.
+pillow
+numpy
+opencv-python-headless
+rembg   # only for MODE=photo
+requests
+beautifulsoup4
