@@ -1,11 +1,14 @@
 <div align="center">
 
-<!-- ============ BANNER ============ -->
+<table border="0" cellpadding="0" cellspacing="0" style="border: none;">
+<tr>
+<td colspan="2" align="center" style="border: none;">
+
 <img src="banner.svg" width="850" alt="riz00m banner">
 
-<br/><br/>
+</td>
+</tr>
 
-<table border="0" cellpadding="0" cellspacing="0" style="border: none;">
 <tr>
 <td valign="top" align="right" style="border: none; padding: 0;">
 
