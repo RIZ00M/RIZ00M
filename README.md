@@ -10,15 +10,15 @@
 </tr>
 
 <tr>
-<td valign="top" align="middle" style="border: none; padding: 0;">
+<td valign="middle" align="middle" style="border: none; padding: 0;">
 
 <img src="ascii-portrait.svg" width="396" height="369" alt="ASCII portrait">
 
 </td>
 
-<td valign="middle" align="left" style="border: none; padding: 0;">
+<td valign="middle" align="middle" style="border: none; padding: 0;">
 
-<img src="info-card.svg" height="420" alt="About RIZ00M">
+<img src="info-card.svg" height="368" alt="About RIZ00M">
 
 </td>
 </tr>
