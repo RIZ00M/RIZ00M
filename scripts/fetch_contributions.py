@@ -1,51 +1,118 @@
-"""Read the public contribution calendar: no token, no third-party service.
-
-Day cells are <td data-date data-level id=...>. The exact count is NOT on the
-cell; it lives in a separate <tool-tip for="<cell id>">, so we join by id.
-Levels are 0-4. Writes data/contributions.json, and refuses to overwrite it
-with an empty result if GitHub changes its markup.
-"""
 import json
-import re
+import os
 import sys
-from datetime import datetime, timezone
+from datetime import date, timedelta
 
 import requests
-from bs4 import BeautifulSoup
 
 import config
 from common import ROOT
 
-URL = f"https://github.com/users/{config.USERNAME}/contributions"
 OUT = ROOT / "data" / "contributions.json"
 
+QUERY = """
+query($login: String!, $from: DateTime!, $to: DateTime!) {
+  user(login: $login) {
+    contributionsCollection(from: $from, to: $to) {
+      contributionCalendar {
+        totalContributions
+        weeks {
+          contributionDays {
+            date
+            contributionCount
+            contributionLevel
+          }
+        }
+      }
+    }
+  }
+}
+"""
 
-def parse(html):
-    soup = BeautifulSoup(html, "html.parser")
-    tips = {t.get("for"): t.get_text(" ", strip=True) for t in soup.find_all("tool-tip")}
-    days = []
-    for td in soup.find_all("td", attrs={"data-date": True}):
-        tip = tips.get(td.get("id"), "")
-        m = re.match(r"(\d[\d,]*)\s+contribution", tip)      # "No contributions on ..." -> 0
-        days.append({"date": td["data-date"],
-                     "level": int(td.get("data-level", 0)),
-                     "count": int(m.group(1).replace(",", "")) if m else 0})
-    days.sort(key=lambda d: d["date"])
-    return days
+LEVELS = {
+    "NONE": 0,
+    "FIRST_QUARTILE": 1,
+    "SECOND_QUARTILE": 2,
+    "THIRD_QUARTILE": 3,
+    "FOURTH_QUARTILE": 4,
+}
 
 
 def main():
-    r = requests.get(URL, headers={"User-Agent": "profile-readme-heatmap/1.0"}, timeout=30)
-    r.raise_for_status()
-    days = parse(r.text)
-    if len(days) < 300:                       # a full calendar is ~365-371 cells
-        sys.exit(f"only parsed {len(days)} day cells from {URL}; markup may have changed. "
-                 "Leaving existing data untouched.")
+    token = os.environ.get("GH_TOKEN")
+
+    if not token:
+        sys.exit("GH_TOKEN is missing")
+
+    today = date.today()
+    start = today - timedelta(days=365)
+
+    variables = {
+        "login": config.USERNAME,
+        "from": f"{start}T00:00:00Z",
+        "to": f"{today + timedelta(days=1)}T00:00:00Z",
+    }
+
+    response = requests.post(
+        "https://api.github.com/graphql",
+        json={
+            "query": QUERY,
+            "variables": variables,
+        },
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github+json",
+        },
+        timeout=30,
+    )
+
+    response.raise_for_status()
+    result = response.json()
+
+    if "errors" in result:
+        sys.exit(f"GitHub GraphQL error: {result['errors']}")
+
+    user = result["data"]["user"]
+
+    if user is None:
+        sys.exit(f"GitHub user not found: {config.USERNAME}")
+
+    calendar = user["contributionsCollection"]["contributionCalendar"]
+
+    days = []
+
+    for week in calendar["weeks"]:
+        for day in week["contributionDays"]:
+            days.append({
+                "date": day["date"],
+                "level": LEVELS[day["contributionLevel"]],
+                "count": day["contributionCount"],
+            })
+
+    days.sort(key=lambda d: d["date"])
+
+    if not days:
+        sys.exit("GitHub returned no contribution days.")
+
     OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(json.dumps({"user": config.USERNAME, "sample": False,
-                               "fetched": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                               "days": days}, indent=1))
-    print(f"{len(days)} days, {sum(d['count'] for d in days)} contributions -> {OUT.relative_to(ROOT)}")
+
+    OUT.write_text(
+        json.dumps(
+            {
+                "user": config.USERNAME,
+                "sample": False,
+                "fetched": date.today().isoformat(),
+                "days": days,
+            },
+            indent=1,
+        )
+    )
+
+    print(
+        f"{len(days)} days, "
+        f"{calendar['totalContributions']} contributions -> "
+        f"{OUT.relative_to(ROOT)}"
+    )
 
 
 if __name__ == "__main__":
