@@ -10,10 +10,6 @@
 </tr>
 
 <tr>
-<td colspan="2" style="border: none; line-height: 24px; font-size: 24px;">&nbsp;</td>
-</tr>
-
-<tr>
 <td valign="top" align="right" style="border: none; padding: 0;">
 
 <img src="ascii-portrait.svg" height="420" alt="ASCII portrait">
