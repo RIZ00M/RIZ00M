@@ -60,6 +60,8 @@
 
 <br/><br/>
 
+<p>Profile still being created email me if you like it or dont</p>
+
 <!-- ============ TOOLBELT ============ -->
 <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB" />
 <img src="https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25" />
