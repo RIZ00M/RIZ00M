@@ -32,7 +32,7 @@ On the offensive side, I practice web and network penetration testing with Burp 
 
 I'm most productive with Python and Bash, but also very comfortable across Java, Lua and C#, and I also daily drive on Linux because it is more productive for me. Currently learning and working at internships which many are non disclosable due to their security level clearance. **I am also always open to support local businesses with IT in any way I can with IT and have a lot of experience in doing so!**
 
-**What I'm looking for:** Software Engineering or Cyber Security roles. Open to connect with anyone, I am very outgoing.
+**What I'm currently doing:** Studying Software Engineering and later moving onto a masters in Cyber Security.
 
 </td>
 </tr>
@@ -40,9 +40,7 @@ I'm most productive with Python and Bash, but also very comfortable across Java,
 
 <br/>
 
-![](https://img.shields.io/badge/dynamic-red?style=for-the-badge&label=OPEN%20TO&message=SOFTWARE%20ENG%20%2F%20CYBER%20SECURITY&color=58A6FF&labelColor=0d1117)
-![](https://img.shields.io/badge/dynamic-red?style=for-the-badge&label=BASED%20IN&message=UNITED%20KINGDOM&color=1f6feb&labelColor=0d1117)
-![](https://img.shields.io/badge/dynamic-red?style=for-the-badge&label=TRYHACKME&message=TOP%2015%25&color=39C5CF&labelColor=0d1117)
+<p>profile still in development lol</p>
 
 <hr/>
 
