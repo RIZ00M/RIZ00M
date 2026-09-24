@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-<img src="ascii-portrait.svg" width="396" height="369" alt="ASCII portrait" valign="middle"><img src="info-card.svg" height="368" alt="About RIZ00M" valign="middle">
+<img src="ascii-portrait.svg" width="420" height="450" alt="ASCII portrait" style="vertical-align: middle;"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" width="24" height="1"><img src="info-card.svg" width="376" height="460" alt="About RIZ00M" style="vertical-align: middle;">
 
 <br/><br/>
 
