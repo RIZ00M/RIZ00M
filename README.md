@@ -1,47 +1,20 @@
 <div align="center">
 
-<table border="0" cellpadding="0" cellspacing="0" style="border: none;">
-<tr>
-<td colspan="2" align="center" style="border: none; padding-bottom: 20px;">
-
 <img src="banner.svg" width="850" alt="riz00m banner">
 
-</td>
-</tr>
+<br/><br/>
 
-<tr>
-<td valign="middle" align="middle" style="border: none; padding: 0;">
+<img src="ascii-portrait.svg" width="396" height="369" alt="ASCII portrait" valign="middle"><img src="info-card.svg" height="368" alt="About RIZ00M" valign="middle">
 
-<img src="ascii-portrait.svg" width="396" height="369" alt="ASCII portrait">
-
-</td>
-
-<td valign="middle" align="middle" style="border: none; padding: 0;">
-
-<img src="info-card.svg" height="368" alt="About RIZ00M">
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" align="center" style="border: none; padding-top: 20px;">
+<br/><br/>
 
 <img src="contrib-heatmap.svg" width="850" alt="Contribution heatmap for RIZ00M">
 
-</td>
-</tr>
-
-<tr>
-<td colspan="2" align="center" style="border: none; padding-top: 20px; padding-bottom: 20px;">
+<br/><br/>
 
 <a href="https://github.com/RIZ00M">
 <img src="https://github-readme-streak-stats-riz00m.vercel.app?user=RIZ00M&theme=transparent&hide_border=true" width="800" alt="GitHub Streak">
 </a>
-
-</td>
-</tr>
-
-</table>
 
 <br/><br/>
 
