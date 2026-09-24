@@ -16,8 +16,9 @@
 
 <hr/>
 
-<p>Profile still being created email me if you like it or dont</p>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:1f6feb,100:58A6FF&height=70&section=header&text=About+Me&fontSize=24&fontColor=ffffff&fontAlignY=55" width="850" alt="About Me" />
 
+</br></br>
 <!-- ============ TOOLBELT ============ -->
 <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB" />
 <img src="https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25" />
