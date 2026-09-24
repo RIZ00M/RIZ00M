@@ -16,9 +16,36 @@
 
 <hr/>
 
+<a href="https://github.com/RIZ00M">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:1f6feb,100:58A6FF&height=70&section=header&text=About+Me&fontSize=24&fontColor=ffffff&fontAlignY=55" width="850" alt="About Me" />
+</a>
 
-</br></br>
+<br/><br/>
+
+<table border="0">
+<tr>
+<td width="850" align="left">
+
+I'm a software engineer with a strong passion for cyber security. I like building and breaking things, or making things to break things. Some of my favourite professional projects were **government network & domain protection** and **automated protection analytic and report dashboards**, However I would really like to balance it out with a **dedicated software engineering project!**. I also loved making DMARC/SPF/DKIM enforcement logic, building scoring algorithms to measure email authentication security, and automating the recon and enumeration work.
+
+On the offensive side, I practice web and network penetration testing with Burp Suite and Nmap, and I'm daily active on TryHackMe (top 15%) and HackTheBox to keep those skills sharp outside of work and education. I think the best defensive engineers understand how things work before they break them, so I try to stay comfortable on both sides of that line.
+
+I'm most productive with Python and Bash, but also very comfortable across Java, Lua and C#, and I also daily drive on Linux because it is more productive for me. Currently learning and working at internships which many are non disclosable due to their security level clearance. **I am also always open to support local businesses with IT in any way I can with IT and have a lot of experience in doing so!**
+
+**What I'm looking for:** Software Engineering or Cyber Security roles. Open to connect with anyone, I am very outgoing.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+![](https://img.shields.io/badge/dynamic-red?style=for-the-badge&label=OPEN%20TO&message=SOFTWARE%20ENG%20%2F%20CYBER%20SECURITY&color=58A6FF&labelColor=0d1117)
+![](https://img.shields.io/badge/dynamic-red?style=for-the-badge&label=BASED%20IN&message=UNITED%20KINGDOM&color=1f6feb&labelColor=0d1117)
+![](https://img.shields.io/badge/dynamic-red?style=for-the-badge&label=TRYHACKME&message=TOP%2015%25&color=39C5CF&labelColor=0d1117)
+
+<hr/>
+
 <!-- ============ TOOLBELT ============ -->
 <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB" />
 <img src="https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25" />
