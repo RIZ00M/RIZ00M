@@ -1,3 +1,5 @@
+<!-- ============ BANNERS ============ -->
+
 <div align="center">
 
 <img src="banner.svg" width="850" alt="riz00m banner">
@@ -22,6 +24,7 @@
 
 <br/><br/>
 
+<!-- ============ ABOUT ME ============ -->
 <table border="0">
 <tr>
 <td width="850" align="left">
