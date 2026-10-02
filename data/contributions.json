@@ -1,13 +1,8 @@
 {
  "user": "RIZ00M",
  "sample": false,
- "fetched": "2026-10-01",
+ "fetched": "2026-10-02",
  "days": [
-  {
-   "date": "2025-10-01",
-   "level": 3,
-   "count": 5
-  },
   {
    "date": "2025-10-02",
    "level": 0,
@@ -1835,6 +1830,11 @@
   },
   {
    "date": "2026-10-02",
+   "level": 0,
+   "count": 0
+  },
+  {
+   "date": "2026-10-03",
    "level": 0,
    "count": 0
   }
