@@ -4,19 +4,19 @@
 
 <img src="banner.svg" width="850" alt="riz00m banner">
 
-<hr/>
+<hr>
 
 <img src="ascii-portrait.svg" width="420" height="450" alt="ASCII portrait" style="vertical-align: middle;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="info-card.svg" width="376" height="460" alt="About RIZ00M" style="vertical-align: middle;">
 
 <img src="contrib-heatmap.svg" width="850" alt="Contribution heatmap for RIZ00M">
 
-<hr/>
+<hr>
 
 <a href="https://github.com/RIZ00M">
 <img src="https://github-readme-streak-stats-riz00m.vercel.app?user=RIZ00M&theme=transparent&hide_border=true" width="800" alt="GitHub Streak">
 </a>
 
-<hr/>
+<hr>
 
 <a href="https://github.com/RIZ00M">
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:1f6feb,100:58A6FF&height=70&section=header&text=About+Me&fontSize=24&fontColor=ffffff&fontAlignY=55" width="850" alt="About Me" />
@@ -43,9 +43,7 @@ I'm most productive with Python and Bash, but also very comfortable across Java,
 
 <br/>
 
-<p>profile still in development lol</p>
-
-<hr/>
+<hr>
 
 <!-- ============ TOOLBELT ============ -->
 <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB" />
