@@ -29,9 +29,9 @@
 <tr>
 <td width="850" align="left">
 
-I'm a software engineer with a strong passion for cyber security. I like building and breaking things, or making things to break things. Some of my favourite professional projects were **government network & domain protection** and **automated protection analytic and report dashboards**, However I would really like to balance it out with a **dedicated software engineering project!**. I also loved making DMARC/SPF/DKIM enforcement logic, building scoring algorithms to measure email authentication security, and automating the recon and enumeration work.
+I'm a software engineer with a strong passion for cyber security. I like building and breaking things, or making things to break things. Some of my favourite professional projects were **government network & domain protection** and **automated protection analytic and report dashboards**, However I am always open for opportunities to help my local community or organisations. I also loved making DMARC/SPF/DKIM enforcement logic, building scoring algorithms to measure email authentication security, and automating the recon and enumeration work.
 
-On the offensive side, I practice web and network penetration testing with Burp Suite and Nmap, and I'm daily active on TryHackMe (top 15%) and HackTheBox to keep those skills sharp outside of work and education. I think the best defensive engineers understand how things work before they break them, so I try to stay comfortable on both sides of that line.
+On the offensive side, I practice web and network penetration testing with Burp Suite and Nmap, and I'm daily active on TryHackMe (top 10%) and HackTheBox to keep those skills sharp outside of work and education. I think the best defensive engineers understand how things work before they break them, so I try to stay comfortable on both sides of that line.
 
 I'm most productive with Python and Bash, but also very comfortable across Java, Lua and C#, and I also daily drive on Linux because it is more productive for me. Currently learning and working at internships which many are non disclosable due to their security level clearance. **I am also always open to support local businesses with IT in any way I can with IT and have a lot of experience in doing so!**
 
