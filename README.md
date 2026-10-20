@@ -11,6 +11,7 @@
 <img src="contrib-heatmap.svg" width="850" alt="Contribution heatmap for RIZ00M">
 
 <hr>
+---
 
 <a href="https://github.com/RIZ00M">
 <img src="https://github-readme-streak-stats-riz00m.vercel.app?user=RIZ00M&theme=transparent&hide_border=true" width="800" alt="GitHub Streak">
